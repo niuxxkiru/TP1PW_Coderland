@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.cajauno{
+    background-color: rgb(21, 16, 97);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buscador{
+    margin-right: 100px;
+}
+.logo img{
+    margin: 20px;
+    height: 60px;
+}
+
+
+.carrito img{
+    height: 30px;
+    margin: 30px;
+    padding-right: 20px;
+}
+
+.contenedor-nav{
+    background-color: rgb(53, 160, 209);
+    width: 90%;
+    
+}
+
+.contenedor-nav nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.slider{
+width: 100%;
+height: 70%;
+position: relative;
+
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider h2{
+    position:absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    color: #050505;
+}
+
+
+ 

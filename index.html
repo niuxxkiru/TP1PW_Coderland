@@ -1,0 +1,84 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <!--Header: logo, barra de buscador y carrito -->
+    <header >
+        <div class="">
+            <!-- Logo -->
+            <a href="index.html">
+                <img src="img/udemy-logo.png" alt="logo" >
+            </a>
+
+            <!-- barra de buscador. El campo de búsqueda sólo buscará en un datalist-->
+            <label for="buscador">Buscar:</label>
+            <input list="lista-buscador" id="buscador" name="buscador">
+
+
+            <datalist id="lista-buscador">
+                <option value="Chocolate">
+                <option value="Coconut">
+                <option value="Mint">
+                <option value="Strawberry">
+                <option value="Vanilla">
+            </datalist>
+
+            <!--El carrito tendrá un número fijo que no esté en la imagen, pero se debe contemplar 
+            que para una próxima entrega este número será dinámico. -->
+            <a href="">
+                <img src="img/carrito.png" alt="carrito" id="imagen-carrito" width="200">
+            </a>
+        </div>
+
+
+        <nav id="barra-de-navegacion">
+            <ul>
+                <li>Menu</li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+
+    <main>
+        <!-- El Slider o Carousel mostrará una imagen fija por el momento, para una próxima 
+        entrega se solicitará este contenido -->
+        <section class="slider">
+            <img src="img/slider1.jpg" alt="slider-1">
+        </section>
+
+        <!-- El listado de pasos le indicará al usuario los pasos para inscribirse en un curso. -->
+        <section class="pasos">
+            <article class="paso-uno">
+                <img src="img/paso1.png" alt="paso-uno" width="200">
+            </article>
+
+            <article class="paso-dos">
+                <img src="img/paso2.png" alt="paso-dos" width="200">
+            </article>
+
+            <article class="paso-tres">
+                <img src="img/paso3.png" alt="paso-tres" width="200">
+            </article>
+
+        </section>
+
+        <!-- Cursos destacados, se mostrarán los cursos destacados con información reducida 
+        (nombre del curso, duración aproximada, precio del curso y un botón que permitirá ver 
+        el detalle del curso). -->
+        <section>
+            
+        </section>
+
+
+    </main>
+</body>
+
+</html>
