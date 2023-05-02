@@ -31,6 +31,24 @@ header {
     margin-right: 100px;
 }
 
+.btn{
+    background-color: #47038bf8;
+    color: #ffff;
+    border:0;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+/* .buscador button{
+    border-width: 0px;
+    position: absolute;
+    margin-left: 10px;
+} */
+
+.buscador img{
+    height: 20px;
+}
 
 
 
