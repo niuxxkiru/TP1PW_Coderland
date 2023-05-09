@@ -3,11 +3,13 @@
 * {
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
 main {
-    background-color: #c5a2f234;
+    background-image: url(../img/fondoo.jpg);
+    background-size: cover;
 }
 
 a {
@@ -19,6 +21,8 @@ ul {
 }
 
 header {
+    background-color: #FBF9FE;
+    background-position: center;
     display: flex;
     flex-direction: column;
 }
@@ -27,8 +31,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #c5a2f234;
 }
+
+.logo img {
+    margin: 20px 30px;
+    height: 80px;
+}
+
 
 .buscador {
     margin-right: 100px;
@@ -36,23 +45,12 @@ header {
 
 .btn {
     background-color: #47038bf8;
-    color: #ffff;
+    color: #FCFFE7;
     border: 0;
     padding: 5px;
     border-radius: 15px;
     margin-left: 10px;
 }
-
-.buscador img {
-    height: 20px;
-}
-
-
-.logo img {
-    margin: 20px;
-    height: 80px;
-}
-
 
 .carrito img {
     height: 30px;
@@ -60,82 +58,132 @@ header {
     padding-right: 20px;
 }
 
-.contenedor-nav {
-    background-color: #47038b;
+.menu {
+    background-image: url(../img/fondoo.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.contenedor-nav nav {
+.menu nav {
     padding-left: 70px;
     padding-right: 30px;
 }
 
-.contenedor-nav ul {
+.menu ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
-.contenedor-nav li {
-    color: #FBF9FE;
+.menu li a {
+    color: #000000;
     font-size: 15px;
 }
 
+/* MAIN */
+
 .slider {
-    width: 100%;
-    height: 80%;
     position: relative;
-
+    background-image: url(../img/slider2.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 490px;
 }
 
-.slider img {
-    width: 100%;
-    height: 100%;
-}
-
-.slider h2 {
+.slider h1 {
+    color: #FCFFE7;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 2px 2px black;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FBF9FE;
-    font-size: 35px;
-    text-align: center;
-    text-shadow: 2px 2px black;
+
 }
 
 .pasos {
-    /* background-color: #47038b; */
-    margin-top: 40px;
-    margin-bottom: 40px;
+    background-color: #FBF9FE;
+    padding: 10px 0px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 .tarjetas {
-    width: 100%;
-    margin: 40px;
-    overflow: hidden;
-    border-radius: 20px;
-    /* background-color: #D9A7A7; */
-    box-shadow: 0px 1px 4px #C4A2F2;
-
+    margin: 30px 0px;
 }
 
 .tarjetas img {
+    height: 250px;
     width: 100%;
-    height: 230px;
+    border-radius: 5px 5px 3px 3px;
+
 }
 
 .tarjetas p {
-    padding: 20px;
     text-align: center;
+    padding: 15px;
 }
 
-.tarjetas:hover{
+.tarjetas:hover {
+    border-radius: 20px;
     box-shadow: 0px 2px 10px #8E29F2;
     transform: translateY(-5%);
     font-weight: bold;
 }
 
+/* centrar bloques con width y/o margin auto */
+
+/* CURSOS DESTACADOS */
+.cursos {
+    /* background-color: #C4A2F2; */
+    padding: 20px;
+    background-size: cover;
+}
+
+.cursos h2 {
+    /* color: #FCFFE7; */
+    color: #000000;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.contenedor-items {
+    /* background-color: antiquewhite; */
+    height: auto;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    background-color: #FCFFE7;
+    border-color: #47038b;
+    margin: 30px;
+    height: 320px;
+    width: 300px;
+    padding: 10px;
+}
+
+.item img {
+    height: 250px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.medios-de-pago {
+    background-color: #FBF9FE;
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin: 20px;
+}
