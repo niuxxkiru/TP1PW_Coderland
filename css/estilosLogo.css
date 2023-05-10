@@ -33,13 +33,13 @@ header {
     justify-content: space-between;
 }
 
-.logo img {
+#logo img {
     margin: 20px 30px;
     height: 80px;
 }
 
 
-.buscador {
+#buscador {
     margin-right: 100px;
 }
 
@@ -52,38 +52,38 @@ header {
     margin-left: 10px;
 }
 
-.carrito img {
+#carrito img {
     height: 30px;
     margin: 30px;
     padding-right: 20px;
 }
 
-.menu {
+#menu {
     background-image: url(../img/fondoo.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.menu nav {
+#menu nav {
     padding-left: 70px;
     padding-right: 30px;
 }
 
-.menu ul {
+#menu ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
-.menu li a {
+#menu li a {
     color: #000000;
     font-size: 15px;
 }
 
 /* MAIN */
 
-.slider {
+#slider {
     position: relative;
     background-image: url(../img/slider2.jpg);
     background-size: cover;
@@ -91,7 +91,7 @@ header {
     height: 490px;
 }
 
-.slider h1 {
+#slider h1 {
     color: #FCFFE7;
     font-size: 35px;
     text-align: center;
@@ -103,7 +103,7 @@ header {
 
 }
 
-.pasos {
+#pasos {
     background-color: #FBF9FE;
     padding: 10px 0px;
     display: flex;
@@ -146,7 +146,7 @@ header {
     font-size: xx-large;
 }
 
-.contenedor-items {
+#contenedor-items {
     background-color: antiquewhite;
     margin: 0 20px;
     display: flex;
@@ -172,6 +172,10 @@ header {
     justify-content: flex-end;
     flex-wrap: wrap;
     align-content: center;
+}
+
+#precio{
+    border-color: #8E29F2;
 }
 
 .item p{
