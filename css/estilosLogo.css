@@ -139,24 +139,15 @@ header {
 /* centrar bloques con width y/o margin auto */
 
 /* CURSOS DESTACADOS */
-.cursos {
-    /* background-color: #C4A2F2; */
-    padding: 20px;
-    background-size: cover;
-}
 
 .cursos h2 {
-    /* color: #FCFFE7; */
-    color: #000000;
     text-align: center;
-    padding: 30px;
+    margin: 30px;
+    font-size: xx-large;
 }
 
-
-
 .contenedor-items {
-    /* background-color: antiquewhite; */
-    height: auto;
+    background-color: antiquewhite;
     margin: 0 20px;
     display: flex;
     flex-direction: row;
@@ -166,17 +157,26 @@ header {
 
 .item {
     background-color: #FCFFE7;
-    border-color: #47038b;
     margin: 30px;
-    height: 320px;
+    text-align: center;
     width: 300px;
-    padding: 10px;
 }
 
 .item img {
-    height: 250px;
-    width: 100%;
-    margin: auto;
+    height: 180px;
+    padding: 20px;
+}
+
+.item div{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.item p{
+    padding: 20px;
+    margin: 10px;
 }
 
 
