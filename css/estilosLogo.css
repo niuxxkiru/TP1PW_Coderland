@@ -7,6 +7,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+:root{
+
+    --color-1:#FBF9FE;
+}
+
 main {
     background-image: url(../img/fondoo.jpg);
     background-size: cover;
@@ -21,7 +26,7 @@ ul {
 }
 
 header {
-    background-color: #FBF9FE;
+    background-color: var(--color-1);
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -92,7 +97,7 @@ header {
 }
 
 #slider h1 {
-    color: #FCFFE7;
+    color: var(--color-1);
     font-size: 35px;
     text-align: center;
     text-shadow: 2px 2px black;
@@ -104,7 +109,7 @@ header {
 }
 
 #pasos {
-    background-color: #FBF9FE;
+    background-color: var(--color-1);
     padding: 10px 0px;
     display: flex;
     align-items: center;
@@ -140,7 +145,7 @@ header {
 
 /* CURSOS DESTACADOS */
 
-.cursos h2 {
+#cursos-destacados h2 {
     text-align: center;
     margin: 30px;
     font-size: xx-large;
@@ -159,7 +164,8 @@ header {
     background-color: #FCFFE7;
     margin: 30px;
     text-align: center;
-    width: 300px;
+    /* width: 300px; */
+    position: relative;
 }
 
 .item img {
@@ -167,18 +173,26 @@ header {
     padding: 20px;
 }
 
-.item div{
+
+.precio{
+    background-color: #000000;
+    width: 60px;
+    height: 30px;
+    color: var(--color-1);
+    padding: 5px;
+    position: absolute;
+    right: 0;
+}
+
+.container-descripcion{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     align-content: center;
 }
 
-#precio{
-    border-color: #8E29F2;
-}
 
-.item p{
+.container-descripcion p{
     padding: 20px;
     margin: 10px;
 }
