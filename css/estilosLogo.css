@@ -21,6 +21,7 @@ main {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 ul {
@@ -176,8 +177,10 @@ header {
 }
 
 .imagen-precio img {
-    height: 180px;
-    padding: 20px;
+    height: 200px;
+    /* padding: 20px 20px 0px; */
+    padding: 10px;
+    width: 100%;
 }
 
 
@@ -188,23 +191,19 @@ header {
     color: var(--color-1);
     padding: 5px;
     position: absolute;
-    right: 0;
+    right: 10px;
     bottom: 30px;
 }
 
-.container-descripcion {
+.descripcion{
     display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-content: center;
+    justify-content: space-between;
+    margin: 20px;
 }
 
-
-.container-descripcion p {
-    padding: 20px;
-    margin: 10px;
+.columna-2{
+    text-align: end;
 }
-
 
 .medios-de-pago {
     background-color: #FBF9FE;
@@ -213,3 +212,4 @@ header {
     padding: 20px;
     margin: 20px;
 }
+
