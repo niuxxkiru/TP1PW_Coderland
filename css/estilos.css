@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --color-1: #FBF9FE;
+    --color-2: #9CD9C2;
+    --color-3: #f2b70596;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+}
+
+#header-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    margin: 8px 30px;
+    height: 100px;
+}
+
+#carrito {
+    display: flex;
+    margin: 0px 10px;
+}
+
+
+#carrito img {
+    height: 30px;
+}
+
+
+
+#header-menu {
+    background-image: url(../img/fondoo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header-menu nav {
+    padding-left: 70px;
+    padding-right: 30px;
+}
+
+#header-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#header-menu li a {
+    color: #000000;
+    font-size: 16px;
+}
+
+.titulo-div-section {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    background-color: var(--color-3);
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--color-3);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer h4 {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.contenedor-datos-menu-redes {
+    background-color: var(--color-1);
+    width: 400px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #b1b1b1;
+}
+
+
+.columna-avatar-datos {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.contenedor-datos-menu-redes li {
+    font-size: 12px;
+    margin: 10px;
+}
+
+
+#iconos-redes {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#iconos-redes img{
+    width: 20px;
+}
+
+

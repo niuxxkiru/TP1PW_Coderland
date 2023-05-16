@@ -5,44 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilosLogo.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilosIndex.css">
     <title>Coderland</title>
 </head>
 
-<!-- Cursoland, coderland,  -->
 
 <body>
     <header>
-        <div class="cajauno">
-            <div id="logo">
-                <a href="logo.html">
-                    <img src="img/coderland.png" alt="logo">
-                </a>
+        <div id="header-superior">
+            <!-- LOGO -->
+            <div class="contenedor-items">
+                <div id="logo">
+                    <a href="logo.html"><img src="img/coderland.png" alt="logo-coderland"></a>
+                </div>
             </div>
 
-            <div id="buscador">
-                <form action="#" method="get" class="barra">
+            <!-- BUSCADOR-->
+            <div class="contenedor-items">
+                <form action="#" method="get">
                     <input type="search" name="lista-buscador" list="lista-buscador">
-                    <input class="btn" type="submit" value="Buscar">
+                    <input type="submit" value="Buscar">
                 </form>
                 <datalist id="lista-buscador">
-                    <option value="Html5 - CSS"></option>
+                    <option value="Html5 y CSS desde Cero"></option>
                     <option value="Python"></option>
-                    <option value="Angular"></option>
-                    <option value="Java"></option>
-                    <option value="Introducción a Base de datos y SQL"></option>
+                    <option value="Desarrollo con Angular"></option>
+                    <option value="Programación con Java"></option>
+                    <option value="SQL desde Cero"></option>
                     <option value="Javascript"></option>
                 </datalist>
-
             </div>
 
-            <div id="carrito">
-                <img src="img/carrito.png" alt="carrito">
+            <!-- CARRITO -->
+            <div class="contenedor-items">
+                <div id="carrito">
+                    <img src="img/carrito.png" alt="carrito">
+                    <h4>2</h4>
+                </div>
             </div>
         </div>
 
 
-        <div id="menu">
+        <div id="header-menu">
             <nav>
                 <ul>
                     <li><a href="">GiftCard</a></li>
@@ -80,7 +85,7 @@
 
         <section id="cursos-destacados">
 
-            <h2>Cursos Destacados</h2>
+            <h2 class="titulo-div-section">Cursos Destacados</h2>
 
             <section class="contenedor-items">
                 <!-- html y css -->
@@ -93,16 +98,21 @@
 
                     <div class="descripcion">
                         <div class="columna-1">
-                            <p>60 hs</p>
+                            <h3>60hs</h3>
+                            <h3>Html y Css desde Cero</h3>
                         </div>
 
                         <div class="columna-2">
-                            <p class="titulo-curso">Html y Css desde cero</p>
+
                             <div class="detalle">
                                 <a href="http" target="_blank"> Ver detalle</a>
+
                             </div>
 
-                            <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            <div class="comprar">
+                                <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            </div>
+
                         </div>
                     </div>
 
@@ -117,16 +127,21 @@
 
                     <div class="descripcion">
                         <div class="columna-1">
-                            <p>60 hs</p>
+                            <h3>60 hs</h3>
+                            <h3>Desarrollo con Angular</h3>
                         </div>
 
                         <div class="columna-2">
-                            <p class="titulo-curso">Desarrollo con Angular</p>
+
                             <div class="detalle">
                                 <a href="http" target="_blank"> Ver detalle</a>
+
                             </div>
 
-                            <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            <div class="comprar">
+                                <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            </div>
+
                         </div>
                     </div>
                 </article>
@@ -140,16 +155,21 @@
 
                     <div class="descripcion">
                         <div class="columna-1">
-                            <p>60 hs</p>
+                            <h3>60 hs</h3>
+                            <h3>Programación con Java</h3>
                         </div>
 
                         <div class="columna-2">
-                            <p class="titulo-curso">Programación con Java</p>
+
                             <div class="detalle">
                                 <a href="http" target="_blank"> Ver detalle</a>
+
                             </div>
 
-                            <a href="http://" target="_blank" class="comprar"> Comprar </a>
+                            <div class="comprar">
+                                <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            </div>
+
                         </div>
                     </div>
                 </article>
@@ -163,16 +183,21 @@
 
                     <div class="descripcion">
                         <div class="columna-1">
-                            <p>60 hs</p>
+                            <h3>60 hs</h3>
+                            <h3>Python</h3>
                         </div>
 
                         <div class="columna-2">
-                            <p class="titulo-curso">Python</p>
+
                             <div class="detalle">
                                 <a href="http" target="_blank"> Ver detalle</a>
+
                             </div>
 
-                            <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            <div class="comprar">
+                                <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            </div>
+
                         </div>
                     </div>
                 </article>
@@ -186,16 +211,21 @@
 
                     <div class="descripcion">
                         <div class="columna-1">
-                            <p>60 hs</p>
+                            <h3>60 hs</h3>
+                            <h3>Javascript</h3>
                         </div>
 
                         <div class="columna-2">
-                            <p class="titulo-curso">Javascript</p>
+
                             <div class="detalle">
                                 <a href="http" target="_blank"> Ver detalle</a>
+
                             </div>
 
-                            <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            <div class="comprar">
+                                <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            </div>
+
                         </div>
                     </div>
                 </article>
@@ -209,16 +239,21 @@
 
                     <div class="descripcion">
                         <div class="columna-1">
-                            <p>60 hs</p>
+                            <h3>60 hs</h3>
+                            <h3>SQL desde Cero</h3>
                         </div>
 
                         <div class="columna-2">
-                            <p class="titulo-curso">SQL desde Cero</p>
+
                             <div class="detalle">
                                 <a href="http" target="_blank"> Ver detalle</a>
+
                             </div>
 
-                            <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            <div class="comprar">
+                                <a href="http://" target="_blank" class="comprar"> Comprar</a>
+                            </div>
+
                         </div>
                     </div>
                 </article>
@@ -230,7 +265,7 @@
         </section>
 
         <section id="medios-de-pago">
-            <h2>Medios de pago</h2>
+            <h2 class="titulo-div-section">Medios de pago</h2>
             <div class="contenedor-items">
                 <div class="item-pago">
                     <img src="img/icons/MercadoPago_Logo.png" alt="mercado-pago">
@@ -255,38 +290,50 @@
     </main>
 
     <footer>
-        <div class="footer-contenedor">
-            <h3>Datos del Grupo</h3>
-            <div id="avatar">
-                <img src="img/icons/avatar_woman.png" alt="user">
+        <!-- datos del grupo -->
+        <section class="contenedor-datos-menu-redes">
+            <h4>Datos del Grupo</h4>
+            <div class="columna-avatar-datos">
+
+                <div id="avatar">
+                    <img src="img/icons/avatar_woman.png" alt="user">
+                </div>
+
+                <div id="datos">
+                    <p>Nicole Mata</p>
+                </div>
             </div>
 
-            <div id="datos">
-                <p>Nicole Mata</p>
-            </div>
-        </div>
+        </section>
 
-        <div class="footer-contenedor">
-            <h3>Menú</h3>
+        <!-- menu inferior -->
+        <section class="contenedor-datos-menu-redes">
+            <h4>Menú Inferior</h4>
             <ul>
-                <li><a href="">GiftCard</a></li>
-                <li><a href="">Cursos</a></li>
-                <li><a href="">Calendario de cursos</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="" target="_blank">GiftCard</a></li>
+                <li><a href="" target="_blank">Cursos</a></li>
+                <li><a href="" target="_blank">Calendario de cursos</a></li>
+                <li><a href="" target="_blank">Contacto</a></li>
             </ul>
-        </div>
+        </section>
 
-        <div class="footer-contenedor">
-            <h3>Redes Sociales</h3>
-            <ul>
-                <li><a href="https://www.instagram.com/"><img src="img/icons/instagram.png" alt="instagram"></a></li>
-                <li><a href="https://www.facebook.com/"><img src="img/icons/facebook.png" alt="facebook"></a></li>
-                <li><a href="https://www.youtube.com/"><img src="img/icons/youtube.png" alt="youtube"></a></li>
-                <li><a href="https://www.tiktok.com/es/"><img src="img/icons/tik-tok.png" alt="tik-tok"></a></li>
-                <li><a href="https://twitter.com/"><img src="img/icons/twitter_.png" alt="twitter"></a></li>
+        <!-- redes sociales -->
+        <section class="contenedor-datos-menu-redes">
+            <h4>Redes Sociales</h4>
+            <ul id="iconos-redes">
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="img/icons/instagram.png"
+                            alt="instagram"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="img/icons/facebook.png"
+                            alt="facebook"></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><img src="img/icons/youtube.png"
+                            alt="youtube"></a></li>
+                <li><a href="https://www.tiktok.com/es/" target="_blank"><img src="img/icons/tik-tok.png"
+                            alt="tik-tok"></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><img src="img/icons/twitter_.png" alt="twitter"></a>
+                </li>
             </ul>
 
-        </div>
+        </section>
     </footer>
 
     <!-- AGREGAR FIXED WP -->
