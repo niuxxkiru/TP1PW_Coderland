@@ -129,4 +129,20 @@ footer h4 {
 
 /* WHATSAPP */
 
+.btn-wsp{
+    background-color: #69cf5a;
+    position: fixed;
+    z-index: 10000;
+    text-align: center;
+    right: 15px;
+    bottom: 30px;
+    font-size: 40px;
+    color: var(--color-1);
+    border-radius: 50px;
+    box-shadow: 0px 2px 10px #000000;
+}
 
+.btn-wsp:hover{
+    background-color: var(--color-1);
+    color: #69cf5a;
+}
