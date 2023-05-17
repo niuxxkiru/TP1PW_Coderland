@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/estilosDelCurso.css">
     <title>Detalle del Curso</title>
 </head>
+
 <body>
     <header>
         <div id="header-superior">
@@ -56,9 +58,59 @@
         </div>
 
     </header>
-    
+
     <main>
+        <!--TITULO CURSO Y PORTADA-->
+        <section id="detalle-curso">
+            <div>
+                <img src="img/cursosPortadas/dataAnalystPortada.jpg" alt="dataAnalystPortada" >
+            </div>
+
+            <section id="info">
+                <h1>Data Analytics</h1>
+
+                <article class="detalle">
+                    <h4>Valor</h4>
+                    <p>$5000.-</p>
+                </article>
+
+                <article class="detalle">
+                    <h4>Tiempo de dedicación necesario</h4>
+                    <p>30 hs</p>
+                </article>
+
+                <article class="detalle">
+                    <h4>Descripción del curso</h4>
+                    <p>Domina las últimas herramientas para presentar los datos de forma
+                        profesional. Comprende las técnicas para recabar y presentar los
+                        distintos tipos de información.</p>
+                    <p>Durante le curso realizaremos un Proyecto Integrador clase a clase
+                        utilizando herramientas propuestas en el mismo como Power BI y
+                        WampServer.
+                        Se realizará un proceso completo de captura, limpieza, análisis,
+                        diagnóstico, documentación, explotación y publicación de resultados.
+                        Finalizando el mismo con un análisis basado en los KPI generando un
+                        ereporte final que denote observaciones y conclusiones sobre los
+                        datos a modo de Storytelling.
+                        Este proyecto, con casos de uso reales, formará parte de tu portfolio
+                        personal, y te servirá como experiencia profesional. Al finalizar, podrás
+                        subir tu proyecto a Github y compartir el diploma en Linkedin</p>
+                </article>
+
+                <article class="detalle">
+                    <h4>Requisitos Previos</h4>
+                    <p>Cursos o contenidos requeridos: SQL desde Cero</p>
+                </article>
+            </section>
+
+        </section>
+
+        <!-- CONTENIDO POR CLASE -->
+        <section id="contenido">
+            <h1>Contenidos por Clase</h1>
         
+        </section>
+
     </main>
 
     <footer>
@@ -108,12 +160,13 @@
         </section>
 
         <!-- AGREGAR FIXED WP -->
-        <section>
+        <div id="wsp">
             <a href="https://web.whatsapp.com/" target="_blank" class="btn-wsp">
                 <i class="icon-whatsapp"></i>
             </a>
-        </section>
+        </div>
 
     </footer>
 </body>
+
 </html>

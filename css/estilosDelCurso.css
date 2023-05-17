@@ -1,0 +1,33 @@
+#detalle-curso{
+    background-color: rgb(224, 208, 187);
+    display: flex;
+    padding: 20px;
+}
+
+#detalle-curso img{
+    width: 300px;
+    margin: 20px;
+}
+
+#info{
+    margin: 20px;
+}
+
+#info h1{
+    font-size: 28px;
+}
+
+.detalle{
+    padding: 5px 0px;
+}
+
+.detalle p{
+    padding: 3px 0px;
+    line-height: 1.5;
+}
+
+#contenido{
+    background-color: aquamarine;
+    
+}   
+
