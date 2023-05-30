@@ -4,81 +4,196 @@
     --color-3: #f2b70596;
 }
 
+.texto {
+    line-height: 1.5;
+    padding: 0.3em 0px;
+}
 
-#detalle-curso{
-    background-color: rgb(224, 208, 187);
+
+.contenedor-flex{
     display: flex;
-    padding: 20px;
+    background-color: var(--color-1);
 }
 
-.portada{
-    background-color: rgb(89, 158, 160);
-}
-
-.portada img{
+.portada img {
     width: 300px;
-    margin: 20px;
+    margin: 1.25em;
 }
 
-#info{
-    background-color: violet;
-    padding: 20px;
+.contenedor-con-padding {
+    padding: 1.25em;
 }
 
-#info h1{
-    font-size: 28px;
+.contenedor-con-padding h1 {
+    font-size: 1.75em;
 }
 
 .detalle{
-    padding: 5px 0px;
+    margin: 1em 0em;
 }
 
-.detalle p{
-    padding: 3px 0px;
-    line-height: 1.5;
-}
 
-#btn-inscripcion{
-    margin: 15px 0px;
-}
-
-#btn-inscripcion a{
-    background-color:var(--color-2) ;
+#btn-inscripcion a {
+    background-color: var(--color-2);
+    display: inline-block;
+    margin: 0.6em 0em;
     padding: 10px;
     font-size: 18px;
     border-radius: 10px;
     box-shadow: 0px 1px 3px #000;
 }
 
-#btn-inscripcion a:hover{
+#btn-inscripcion a:hover {
     box-shadow: 0px 1px 6px #000;
 }
 
-#contenido{
+#contenido {
     background-color: rgb(255, 242, 127);
-    margin: 35px 0px;
-}   
+    margin: 1em 0em;
+    width: 40em;
+}
+#contenido h2 {
+    padding: 1em 0em;
+}
+/* TEMARIO */
 
-/* tab: unidad
-    tab-container: contenido-unidad
-*/
-
-
-
-.unidad{
-    overflow: hidden;
+details {
+    background-color: rgb(240, 107, 158);
+    border-style: solid;
+    margin: 1em 0em;
 }
 
-.contenido-unidad{
-    max-height: 0;
-    padding: 0px 1em;
-    transition: all 0.25s;
+details summary {
+    background-color: #d99cd1;
+    cursor: pointer;
+    margin: 0.6em;
 }
 
-/* SI ESTA CHECKED BUSCA AL HERMANO QUE TENGA EL CONTENIDO-UNIDAD */
-#contenido input:checked ~ .contenido-unidad {
-    max-height: 100vh;
+.display-temario {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#docente h2{
+    padding: 1em;
+}
+
+#img-radius {
+    height: 220px;
+    border-radius: 50%;
+
+}
+
+#docente .contenedor-flex{
+    background-color: var(--color-2);
+    padding: 1em 0em;
 }
 
 
+.estrellas{
+    margin: 0.4em 0em;
+    cursor: pointer;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: flex-end;
+}
+
+input{
+    display: none;
+}
+
+label{
+    display: inline-block;
+    color: #444;
+    transition: all 0.3s;
+}
+
+label:not(:first-child){
+    margin-right: 5px;
+}
+
+input:checked ~ label,
+input:hover ~ label{
+    color: #ff7a00;
+}
+
+
+.contenedor-items {
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    background-color: var(--color-1);
+    margin: 32px 20px;
+    width: 315px;
+    border-style: solid;
+    border-color: #b1b1b1;
+}
+
+.item:hover {
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px var(--color-2);
+    transform: translateY(-5%);
+    font-weight: bold;
+}
+
+
+.imagen-precio {
+    position: relative;
+}
+
+.imagen-precio img {
+    height: 200px;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+}
+
+
+.precio {
+    background-color: #000000;
+    width: 60px;
+    height: 30px;
+    color: var(--color-1);
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+}
+
+.descripcion {
+    margin: 15px;
+}
+
+.columna-1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columna-2 {
+    text-align: end;
+}
+
+
+.ver-detalle {
+    font-size: 13px;
+    margin: 8px;
+}
+
+.comprar {
+    background-color: var(--color-2);
+    display: inline-flex;
+    padding: 4px;
+    border-radius: 15px;
+
+}
 

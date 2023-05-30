@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/estilosDelCurso.css">
+    <script src="https://kit.fontawesome.com/91c6e18db7.js" crossorigin="anonymous"></script>
     <title>Detalle del Curso</title>
 </head>
 
@@ -61,30 +62,30 @@
 
     <main>
         <!--TITULO CURSO Y PORTADA-->
-        <section id="detalle-curso">
+        <section class="contenedor-flex">
             <div class="portada">
                 <img src="img/cursosPortadas/dataAnalystPortada.jpg" alt="dataAnalystPortada">
             </div>
 
-            <section id="info">
+            <section class="contenedor-con-padding">
                 <h1>DATA ANALYTICS</h1>
 
                 <article class="detalle">
                     <h4>Valor</h4>
-                    <p>$5000.-</p>
+                    <p class="texto">$5000.-</p>
                 </article>
 
                 <article class="detalle">
                     <h4>Tiempo de dedicación necesario</h4>
-                    <p>60 hs</p>
+                    <p class="texto">60 hs</p>
                 </article>
 
                 <article class="detalle">
                     <h4>Descripción del curso</h4>
-                    <p>Domina las últimas herramientas para presentar los datos de forma
+                    <p class="texto">Domina las últimas herramientas para presentar los datos de forma
                         profesional. Comprende las técnicas para recabar y presentar los
                         distintos tipos de información.</p>
-                    <p>Durante le curso realizaremos un Proyecto Integrador clase a clase
+                    <p class="texto">Durante le curso realizaremos un Proyecto Integrador clase a clase
                         utilizando herramientas propuestas en el mismo como Power BI y
                         WampServer.
                         Se realizará un proceso completo de captura, limpieza, análisis,
@@ -99,93 +100,227 @@
 
                 <article class="detalle">
                     <h4>Requisitos Previos</h4>
-                    <p>Cursos o contenidos requeridos: SQL desde Cero</p>
+
+                    <p class="texto">Cursos o contenidos requeridos: SQL desde Cero</p>
                 </article>
 
-                <article id="btn-inscripcion">
+                <div id="btn-inscripcion">
                     <a href="formularioDeInscripcion.html" target="_blank"> INSCRIBIRSE</a>
-                </article>
+                </div>
 
                 <!-- CONTENIDO POR CLASE -->
 
                 <section id="contenido">
                     <h2>CONTENIDOS POR CLASE</h2>
 
-                    <details>
-                        <summary>TITULO</summary>
+                    <!-- UNIDAD 1 -->
+                    <details open>
+                        <summary>CIENCIA DE DATOS: HISTORIA Y CONTEXTO</summary>
+                        <article class="display-temario">
+                            <!-- <ul class="temario">
+                                <li>Proceso del Dato</li>
+                                <li>Perfiles profesionales</li>
+                                <li>Análisis y visualización de datos</li>
+                                <li>Inteligencia de negocios</li>
+                                <li>Ecosistema de una organización</li>
+                            </ul> -->
+                            <!-- <div class="c">
+                                <div class="texto">
+                                    <p>Proceso del Dato</p>
+                                </div>
+
+                                <div class="icon">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p class="texto">10 min</p>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                </div>
+
+                                -----------------------------------------------------------
+                            </div>
+
+                            <div class="c">
+                                <div class="texto">
+                                    <p>Perfiles profesionales</p>
+                                </div>
+
+                                <div class="icon">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p class="texto">10 min</p>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                </div>
+                                ----------------------------------------------------------
+
+                            </div>
+
+                            <div class="c">
+                                <div class="texto">
+                                    <p>Análisis y visualización de Datos</p>
+                                </div>
+
+                                <div class="icon">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p class="texto">10 min</p>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                </div>
+                                ----------------------------------------------------------
+
+                            </div>
+
+                            <div class="c">
+                                <div class="texto">
+                                    <p>Inteligencia de negocios</p>
+                                </div>
+
+                                <div class="icon">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p class="texto">10 min</p>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                </div>
+                                ----------------------------------------------------------
+
+                            </div> -->
 
 
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis sint
-                                tenetur
-                                eligendi voluptatum dolorum nobis amet quaerat? Perspiciatis quos nostrum neque
-                                provident,
-                                cum quam explicabo officia minus amet expedita.
-                            </p>
-                        </div>
-                    </details>
-                    
-                    <details>
-                        <summary>TITULO CON ARTICLE</summary>
 
-                        <article>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis sint
-                                tenetur
-                                eligendi voluptatum dolorum nobis amet quaerat? Perspiciatis quos nostrum neque
-                                provident,
-                                cum quam explicabo officia minus amet expedita.
-                            </p>
+
+
                         </article>
 
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eius quo autem,
+                            aspernatur est repellendus nam iusto facere ut aut velit non, voluptate iure voluptatibus,
+                            illo expedita mollitia pariatur sint?
+                            Velit eos totam vitae labore, dicta blanditiis exercitationem itaque officiis fugit sed
+                            temporibus ratione quisquam perferendis soluta cupiditate magnam molestias facilis deserunt
+                            quam vero dignissimos rem nihil non. Consequuntur, aperiam?
+                            Ex recusandae eius voluptatum eligendi nihil nam sint ut at ad est distinctio, nostrum,
+                            sapiente officia voluptatem explicabo labore dignissimos consequuntur nemo. Accusantium odio
+                            numquam, hic necessitatibus sunt saepe molestiae?</p>
+
                     </details>
 
+                    <!-- UNIDAD 2 -->
+                    <details>
+                        <summary>CALIDAD DEL DATO</summary>
 
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eius quo autem,
+                            aspernatur est repellendus nam iusto facere ut aut velit non, voluptate iure voluptatibus,
+                            illo expedita mollitia pariatur sint?
+                            Velit eos totam vitae labore, dicta blanditiis exercitationem itaque officiis fugit sed
+                            temporibus ratione quisquam perferendis soluta cupiditate magnam molestias facilis deserunt
+                            quam vero dignissimos rem nihil non. Consequuntur, aperiam?
+                            Ex recusandae eius voluptatum eligendi nihil nam sint ut at ad est distinctio, nostrum,
+                            sapiente officia voluptatem explicabo labore dignissimos consequuntur nemo. Accusantium odio
+                            numquam, hic necessitatibus sunt saepe molestiae?</p>
 
+                    </details>
 
-                    <div class="unidades">
-                        <div class="unidad">
-                            <input type="checkbox" id="id-1">
-                            <label class="titulo-unidad" for="id-1">INTRODUCCIÓN: </label>
+                    <!--UNIDAD 3  -->
+                    <details>
+                        <summary>PROSPECCIÓN DE LOS DATOS</summary>
 
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eius quo autem,
+                            aspernatur est repellendus nam iusto facere ut aut velit non, voluptate iure voluptatibus,
+                            illo expedita mollitia pariatur sint?
+                            Velit eos totam vitae labore, dicta blanditiis exercitationem itaque officiis fugit sed
+                            temporibus ratione quisquam perferendis soluta cupiditate magnam molestias facilis deserunt
+                            quam vero dignissimos rem nihil non. Consequuntur, aperiam?
+                            Ex recusandae eius voluptatum eligendi nihil nam sint ut at ad est distinctio, nostrum,
+                            sapiente officia voluptatem explicabo labore dignissimos consequuntur nemo. Accusantium odio
+                            numquam, hic necessitatibus sunt saepe molestiae?</p>
 
-                            <article class="contenido-unidad">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, esse reprehenderit
-                                facilis
-                                minus
-                                laudantium totam voluptate incidunt ipsam perspiciatis necessitatibus deserunt. Autem
-                                obcaecati
-                                vero, vel atque aliquam dolores quia suscipit.
-                            </article>
-                        </div>
+                    </details>
 
-                        <div class="unidad">
-                            <input type="checkbox" name="check" id="id-2">
-                            <label class="titulo-unidad" for="id-2">UNIDAD 1: </label>
-                            <article class="contenido-unidad">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, esse reprehenderit
-                                facilis
-                                minus
-                                laudantium totam voluptate incidunt ipsam perspiciatis necessitatibus deserunt. Autem
-                                obcaecati
-                                vero, vel atque aliquam dolores quia suscipit.
-                            </article>
-                        </div>
+                    <!-- UNIDAD 4 -->
+                    <details>
+                        <summary>DISTRIBUCIÓN DE PROBABILIDAD</summary>
 
-                        <div class="unidad">
-                            <input type="checkbox" name="check" id="id-3">
-                            <label class="titulo-unidad" for="id-3">UNIDAD 2: </label>
-                            <article class="contenido-unidad">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, esse reprehenderit
-                                facilis
-                                minus
-                                laudantium totam voluptate incidunt ipsam perspiciatis necessitatibus deserunt. Autem
-                                obcaecati
-                                vero, vel atque aliquam dolores quia suscipit.
-                            </article>
-                        </div>
-                    </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eius quo autem,
+                            aspernatur est repellendus nam iusto facere ut aut velit non, voluptate iure voluptatibus,
+                            illo expedita mollitia pariatur sint?
+                            Velit eos totam vitae labore, dicta blanditiis exercitationem itaque officiis fugit sed
+                            temporibus ratione quisquam perferendis soluta cupiditate magnam molestias facilis deserunt
+                            quam vero dignissimos rem nihil non. Consequuntur, aperiam?
+                            Ex recusandae eius voluptatum eligendi nihil nam sint ut at ad est distinctio, nostrum,
+                            sapiente officia voluptatem explicabo labore dignissimos consequuntur nemo. Accusantium odio
+                            numquam, hic necessitatibus sunt saepe molestiae?</p>
 
+                    </details>
 
+                    <!-- UNIDAD 5 -->
+                    <details>
+                        <summary>KPI (KEY PERFORMANCE INDICATORS)</summary>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eius quo autem,
+                            aspernatur est repellendus nam iusto facere ut aut velit non, voluptate iure voluptatibus,
+                            illo expedita mollitia pariatur sint?
+                            Velit eos totam vitae labore, dicta blanditiis exercitationem itaque officiis fugit sed
+                            temporibus ratione quisquam perferendis soluta cupiditate magnam molestias facilis deserunt
+                            quam vero dignissimos rem nihil non. Consequuntur, aperiam?
+                            Ex recusandae eius voluptatum eligendi nihil nam sint ut at ad est distinctio, nostrum,
+                            sapiente officia voluptatem explicabo labore dignissimos consequuntur nemo. Accusantium odio
+                            numquam, hic necessitatibus sunt saepe molestiae?</p>
+
+                    </details>
+
+                    <!-- UNIDAD 6 -->
+                    <details>
+                        <summary>LOS GRÁFICOS</summary>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eius quo autem,
+                            aspernatur est repellendus nam iusto facere ut aut velit non, voluptate iure voluptatibus,
+                            illo expedita mollitia pariatur sint?
+                            Velit eos totam vitae labore, dicta blanditiis exercitationem itaque officiis fugit sed
+                            temporibus ratione quisquam perferendis soluta cupiditate magnam molestias facilis deserunt
+                            quam vero dignissimos rem nihil non. Consequuntur, aperiam?
+                            Ex recusandae eius voluptatum eligendi nihil nam sint ut at ad est distinctio, nostrum,
+                            sapiente officia voluptatem explicabo labore dignissimos consequuntur nemo. Accusantium odio
+                            numquam, hic necessitatibus sunt saepe molestiae?</p>
+
+                    </details>
+
+                    <!-- UNIDAD 7 -->
+                    <details>
+                        <summary>EL DATO GEOGRÁFICO</summary>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eius quo autem,
+                            aspernatur est repellendus nam iusto facere ut aut velit non, voluptate iure voluptatibus,
+                            illo expedita mollitia pariatur sint?
+                            Velit eos totam vitae labore, dicta blanditiis exercitationem itaque officiis fugit sed
+                            temporibus ratione quisquam perferendis soluta cupiditate magnam molestias facilis deserunt
+                            quam vero dignissimos rem nihil non. Consequuntur, aperiam?
+                            Ex recusandae eius voluptatum eligendi nihil nam sint ut at ad est distinctio, nostrum,
+                            sapiente officia voluptatem explicabo labore dignissimos consequuntur nemo. Accusantium odio
+                            numquam, hic necessitatibus sunt saepe molestiae?</p>
+
+                    </details>
+
+                    <!-- UNIDAD 8 -->
+                    <details>
+                        <summary>PRESENTACIONES EFECTIVAS</summary>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eius quo autem,
+                            aspernatur est repellendus nam iusto facere ut aut velit non, voluptate iure voluptatibus,
+                            illo expedita mollitia pariatur sint?
+                            Velit eos totam vitae labore, dicta blanditiis exercitationem itaque officiis fugit sed
+                            temporibus ratione quisquam perferendis soluta cupiditate magnam molestias facilis deserunt
+                            quam vero dignissimos rem nihil non. Consequuntur, aperiam?
+                            Ex recusandae eius voluptatum eligendi nihil nam sint ut at ad est distinctio, nostrum,
+                            sapiente officia voluptatem explicabo labore dignissimos consequuntur nemo. Accusantium odio
+                            numquam, hic necessitatibus sunt saepe molestiae?</p>
+
+                    </details>
 
                 </section>
 
@@ -194,9 +329,153 @@
 
         </section>
 
+        <!-- DOCENTE -->
+        <section id="docente">
+            <h2 >DOCENTE</h2>
+
+            <article class="contenedor-flex">
+
+                <!-- FOTO DEL DOCENTE -->
+                <div class="contenedor-con-padding">
+                    <img src="img/profeProfile.jpg" alt="foto-del-docente" id="img-radius">
+                </div>
+
+                <!-- INFO DEL DOCENTE -->
+                <article class="contenedor-con-padding">
+                    <h3>NOMBRE Y APELLIDO</h3>
+
+                    <div class="estrellas">
+                        <input type="radio" name="puntuacion" id="estrella-1">
+                        <label for="estrella-1"><i class="fa-solid fa-star"></i></label>
+
+                        <input type="radio" name="puntuacion" id="estrella-2">
+                        <label for="estrella-2"><i class="fa-solid fa-star"></i></label>
+
+                        <input type="radio" name="puntuacion" id="estrella-3">
+                        <label for="estrella-3"><i class="fa-solid fa-star"></i></label>
+
+                        <input type="radio" name="puntuacion" id="estrella-4">
+                        <label for="estrella-4"><i class="fa-solid fa-star"></i></label>
+
+                        <input type="radio" name="puntuacion" id="estrella-5">
+                        <label for="estrella-5"><i class="fa-solid fa-star"></i></label>
 
 
 
+
+                    </div>
+
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error ullam nobis sit
+                        alias quidem
+                        mollitia aliquam, officia id ab quaerat culpa. Aperiam quae magnam distinctio quis doloribus,
+                        mollitia eos?
+                        Facere, magnam. Minima tempore, commodi assumenda ipsa ex similique? Quo quis voluptate fuga
+                        fugiat vitae expedita itaque, possimus ipsam dolor iste enim hic maiores dolore repellat, alias
+                        cum qui officia!
+                        Itaque eaque ut a adipisci perspiciatis asperiores obcaecati earum vitae facilis, eligendi enim,
+                        quas temporibus iste. Corrupti sequi dolore perspiciatis repellat odit, eligendi, consectetur
+                        est, asperiores autem iste beatae modi.
+                        Placeat a incidunt molestias possimus sint quos dolorum dolore quaerat neque iusto cumque
+                        nesciunt ad officia, sed nemo eveniet voluptas necessitatibus. Aspernatur amet delectus
+                        laudantium ut consequuntur incidunt inventore autem.</p>
+
+                </article>
+
+
+            </article>
+
+        </section>
+
+        <!-- CURSOS RELACIONADOS -->
+
+
+            <section class="contenedor-items">
+                <!-- HTML Y CSS -->
+                <article class="item">
+
+                    <div class="imagen-precio">
+                        <img src="img/cursosPortadas/html-css.jpg" alt="">
+                        <p class="precio">$5000.-</p>
+                    </div>
+
+                    <div class="descripcion">
+                        <div class="columna-1">
+                            <h3>60hs</h3>
+                            <h3>Html y Css desde Cero</h3>
+                        </div>
+
+                        <div class="columna-2">
+
+                            <div class="ver-detalle">
+                                <a href="detalleDelCurso.html" target="_blank"> Ver detalle</a>
+
+                            </div>
+
+                            <div class="comprar">
+                                <a href="formularioDeInscripcion.html" target="_blank" class="comprar"> Comprar</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </article>
+
+                <!-- BACKEND PHP-->
+                <article class="item">
+                    <div class="imagen-precio">
+                        <img src="img/cursosPortadas/backendPhpPortada.jpg" alt="">
+                        <p class="precio">$5000.-</p>
+                    </div>
+
+                    <div class="descripcion">
+                        <div class="columna-1">
+                            <h3>60 hs</h3>
+                            <h3>Backend con Php</h3>
+                        </div>
+
+                        <div class="columna-2">
+
+                            <div class="ver-detalle">
+                                <a href="detalleDelCurso.html" target="_blank"> Ver detalle</a>
+
+                            </div>
+
+                            <div class="comprar">
+                                <a href="formularioDeInscripcion.html" target="_blank" class="comprar"> Comprar</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
+
+                <!-- java -->
+                <article class="item">
+                    <div class="imagen-precio">
+                        <img src="img/cursosPortadas/javaPortada.jpg" alt="">
+                        <p class="precio">$5000.-</p>
+                    </div>
+
+                    <div class="descripcion">
+                        <div class="columna-1">
+                            <h3>60 hs</h3>
+                            <h3>Programación con Java</h3>
+                        </div>
+
+                        <div class="columna-2">
+
+                            <div class="ver-detalle">
+                                <a href="detalleDelCurso.html" target="_blank"> Ver detalle</a>
+
+                            </div>
+
+                            <div class="comprar">
+                                <a href="formularioDeInscripcion.html" target="_blank" class="comprar"> Comprar</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
+            </section>
     </main>
 
     <footer>
@@ -253,6 +532,7 @@
         </div>
 
     </footer>
+
 </body>
 
 </html>
